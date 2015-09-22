@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Template</title>
+	<title>ТЕСТОВОЕ ЗАДАНИЕ</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="format-detection" content="telephone=no">
 	<!-- theme color for android 5.0 -->
@@ -14,9 +14,78 @@
 </head>
 <body>
 <!-- BEGIN  out-->
-<div class="out">
+    <div class="container clearfix">
+        <div class="container__menu">
+            <ul class="menu">
+                <li class="menu__item current__item"><a class="menu__link" href="#">Все</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Потерянные</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Найденные</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Приму в дар</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Отдам в дар</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Куплю</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Продам</a></li>
+            </ul>
+        </div>
+        <div class="container__gallery">
+            <div class="gallery">
+                <div class="preview">
+                    <img class="preview__image" src="img/2dogs-big-image.jpg" alt="Очаровательные малыши в дар!" title="Очаровательные малыши в дар!" />
+                </div>
+                <div class="gallery__pictures">
+                    <div class="pictures pictures_current"><img class="pictures__image" src="img/2dogs-small-image.jpg" alt="Очаровательные малыши в дар!" title="Очаровательные малыши в дар!" /></div>
+                    <div class="pictures"><img class="pictures__image" src="img/puppy-small-image.jpg" alt="Еще очаровательный малыш!" title="Еще очаровательный малыш!" /></div>
+                    <div class="pictures"><img class="pictures__image" src="img/nurse-vs-puppy-small-image.jpg" alt="Барсик и его команда!" title="Барсик и его команда!" /></div>
+                    <div class="pictures"><img class="pictures__image" src="img/nurse2-vs-puppy-small-image.jpg" alt="Барсик и его команда!" title="Барсик и его команда!" /></div>
+                    <div class="pictures"><img class="pictures__image" src="img/nurse3-vs-puppy-small-image.jpg" alt="Барсик и его команда!" title="Барсик и его команда!" /></div>
+                </div>
+                <a class="gallery__to-all-ads" href="#" title="Вернуться ко всем объявлениям">Вернуться ко всем объявлениям</a>
 
-</div>
+            </div>
+            <div class="gallery__content">
+                <span class="content__category">Отдам в дар</span>
+                <time class="content__time" datetime="2014-09-10">10 Сентября 2014</time>
+                <h2 class="content__title">Очаровательные малыши в дар!</h2>
+                <p class="content__text">Отдам в дар двух очаровательных двухмесячных щенков. 
+Непородистые, вырастут чуть выше колена. Привиты. Кушают сухой корм, уже прорезались зубки. Приучены 
+к выгулу. Ищут надёжных и любящих хозяев. </p>
+                <table class="content__table">
+                    <tr class="table__row">
+                        <td class="table__head">Вид животного:</td>
+                        <td class="table__data">Собака</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__head">Пол:</td>
+                        <td class="table__data">Самец/ самка</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__head">Возраст:</td>
+                        <td class="table__data">2 месяца</td>
+                    </tr>
+                </table>
+                <table class="content__table">
+                    <caption class="content__table-title">Контактная информация</caption>
+                    <tr class="table__row">
+                        <td class="table__head">Имя:</td>
+                        <td class="table__data">Анатолий</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__head">Телефон:</td>
+                        <td class="table__data">+375 29 361 55 87 <br /> +375 29 686 27 77</td>
+
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__head">Город:</td>
+                        <td class="table__data">Минск</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__head">Цена:</td>
+                        <td class="table__data">-----</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
 <!-- END out-->
 <!-- load scripts -->
 <script src="js/lib/head.js" data-headjs-load="js/init.js"></script>
